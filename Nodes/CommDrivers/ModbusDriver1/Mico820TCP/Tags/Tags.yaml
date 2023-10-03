@@ -1,0 +1,61 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: Start
+  Id: g=17a385bdaef38b8fe3119269cb258192
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: ArrayUpdateMode
+    Type: BaseDataVariableType
+    DataType: TagArrayUpdateMode
+    Value: 0
+- Name: Stop
+  Id: g=a8a0035504bfaf12dbbb0992256fb27a
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 1
+  - Name: NumCoil
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: PumpRunning
+  Id: g=e80e87c14948052dcc34138dc52832fd
+  Type: ModbusTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 3
+- Name: FlowRate
+  Id: g=77996f820a9467e2e7491b7415b8ea7c
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: MemoryArea
+    Type: BaseDataVariableType
+    DataType: ModbusMemoryArea
+    Value: 0
+- Name: Temperature
+  Id: g=1e360ac99e2181150c75e958af6cf70b
+  Type: ModbusTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: NumRegister
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
